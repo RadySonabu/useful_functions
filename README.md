@@ -9,6 +9,7 @@ File Organization: Sort files into directories based on type or metadata.
 ## Data Scraping:
 
 Web Scraping: Extract data from websites using libraries like BeautifulSoup or Scrapy.
+
 API Requests: Automate data retrieval from APIs.
 
 ## Email Automation:
@@ -18,6 +19,7 @@ Sending Emails: Automate sending emails with attachments using SMTP libraries li
 ## Text Processing:
 
 Text Parsing: Automate extraction and processing of text data from documents or web pages.
+
 Text Analysis: Analyze text data for sentiment, keywords, etc.
 
 ## Scheduled Tasks:
@@ -39,6 +41,7 @@ Automate GUI Tasks: Use libraries like pyautogui to automate mouse and keyboard 
 ## PDF Operations:
 
 PDF Generation: Create PDFs from text or HTML using libraries like reportlab.
+
 PDF Parsing: Extract text, images, and metadata from PDFs using libraries like PyPDF2 or pdfplumber.
 
 ## Image Processing:
