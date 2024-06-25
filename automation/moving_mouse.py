@@ -5,11 +5,11 @@ import datetime
 screenSize = pyautogui.size()
 
 
-def moveMouse():
+def move_mouse():
     pyautogui.moveTo(5, screenSize[1], duration=1)
 
 
-def clickMouse():
+def click_mouse():
     pyautogui.click()
     main()
 
@@ -20,8 +20,8 @@ def main():
         print("end of day reached")
         quit()
     else:
-        threading.Timer(5.0, moveMouse).start()
-        threading.Timer(10.0, clickMouse).start()
+        threading.Timer(5.0, move_mouse).start()
+        threading.Timer(10.0, click_mouse).start()
 
 
 main()
